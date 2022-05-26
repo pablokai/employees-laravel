@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#app{
+    margin: 0 !important;
+}
+
+
+.sidebar{
+    background-color: #fff;
+    margin: 0;
+    width: 18vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.sidebar a{
+    text-decoration: none;
+}
+
+.logo{
+    padding: 5vh 1vw;
+}
+
+.logo-icon{
+    width: 2.6vw;
+    height: 2.6vw;
+}
+
+.title{
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: 800;
+    color: #0d6efd;
+    width: 100%;
+    padding: 5%;
+}
+
+
+.sidebar i{
+    margin-right: 1vw;
+}
+
+.sidebar ul{
+    width: 100%;
+    padding:  0 1vw;
+}
+
+.sidebar li{
+    cursor: pointer;
+    width: 100%;
+    list-style: none;
+    font-size: 1vw;
+    padding: 3vh 1vw;
+    font-weight: 500;
+    color: #313131;
+    margin: 1vw 0;
+}
+
+.sidebar li:hover{
+    background-color: #d3e1e1;
+    color: #313131;
+    border-radius: 30px;
+}
+
+.profile{
+    width: 100%;
+}
+
+.top-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile h2{
+    font-size: 1.2vw; 
+    margin: auto 0 ;
+    
+}
+
+.profile img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;  
+    margin: auto 0 ;   
+}
+
+.profile p{
+    color: #95a1a1;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+.sidebar li:nth-child(3){
+    padding: 5vh 1vw ;
+    width: 100%;
+    border-top: #95a1a1 solid 0.5px;
+    border-bottom: #95a1a1 solid 0.5px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.sidebar li:hover:nth-child(3){
+    background-color: #fff;
+    border-radius: 0;
+    
+}
+
+.sidebar li:nth-child(4){
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 5vh;
+}
+
+.sidebar li:hover:nth-child(4){
+    background-color: #fff;
+}
+
+
+.logout{    
+    background-color: crimson;
+    color: #fff;
+    padding: 1vw 5.5vw;
+    margin: 0vw;
+    border-radius: 30px;
+}
+
+
+.logout:hover{
+    background-color: #bf082d;
+    color: #fff;
+    
+}
+
+
+
